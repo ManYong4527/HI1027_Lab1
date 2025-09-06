@@ -61,4 +61,18 @@ public class Rod {
     {
         return "Rod: " + Arrays.toString(disks) + ", n = " + n;
     }
+
+
+    //Det står inte i instruktion jag laddade ner
+    public int getMaxNumberOfDisks(){return disks.length;}
+
+    public void clear()
+    {
+        for (int i = 0; i < disks.length; i++)
+        {
+            disks[i] = null;
+        }
+
+        //disks = new Disk[disks.length];
+    }
 }
